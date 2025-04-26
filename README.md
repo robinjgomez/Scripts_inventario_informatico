@@ -85,9 +85,9 @@ Almacenar en una carpeta de nombre Inventario los archivos del proyecto, es posi
 
 ## Autor
 
-**Jose Lopez Lopez**
+**Róbin Gómez Rodríguez**
 
-Técnico de campo en proyectos de inventariado informático y soporte IT.
+Técnico de campo / Análista de ciberseguridad.
 
 [LinkedIn] | [Portafolio]
 
