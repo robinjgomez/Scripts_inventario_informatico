@@ -22,7 +22,7 @@ El objetivo principal es **agilizar y automatizar parcialmente** el proceso de r
 
 ## Instrucciones rápidas de uso.
 Almacenar en una carpeta de nombre Inventario los archivos del proyecto, es posible modificar el nombre de esta carpeta pero se requiere hacer cambiso en las rutas de los atajos y posiblemente en los scripts. 
----
+
 
 ## Estructura que tendra la carpeta Inventario en el USB
 
