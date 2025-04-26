@@ -43,6 +43,8 @@ El objetivo principal es **agilizar y automatizar parcialmente** el proceso de r
 
 ## Instrucciones rápidas de uso
 
+Almacenar en una carpeta de nombre Inventario los archivos del proyecto, es posible modificar el nombre de esta carpeta pero se requiere hacer cambiso en las rutas de los atajos y posiblemente en los scripts. 
+
 ### En LliureX
 
 1. Conectar el USB.
@@ -73,7 +75,7 @@ El objetivo principal es **agilizar y automatizar parcialmente** el proceso de r
 
 ## Consideraciones
 
-- Los scripts están diseñados para minimizar errores relacionados con **caracteres especiales** (e.g., ñ, acentos).
+- Los scripts aún estar por ser optimizados para minimizar errores relacionados con **caracteres especiales** (e.g., ñ, acentos), en tal sentido y de momento se pueden encontrar algúnas palabras en ingles que no requieren de estos caracteres especiales.
 - Se recomienda **no modificar** los archivos `core` salvo necesidad técnica específica.
 - El archivo de inventario puede ser editado o copiado directamente para su gestión.
 
