@@ -4,7 +4,7 @@
 
 Como parte del proyecto de **actualización de los inventarios informáticos** de las instituciones educativas que dependen de la **Consellería de Educación** de la Comunidad Valenciana, he desarrollado un conjunto de **scripts automáticos** que facilitan la **captura de datos** esenciales de los dispositivos.
 
-El objetivo principal es **automatizar** el proceso de recolección de información relevante (únicos del equipo como número de serie, dirección MAC, sistema operativo, y ubicación) en dispositivos tanto **Windows** como **LliureX** (Linux), almacenando los resultados de forma estructurada para su posterior integración en hojas de cálculo oficiales proporcionadas por la administración.
+El objetivo principal es **agilizar y automatizar parcialmente** el proceso de recolección de información relevante (únicos del equipo como número de serie, dirección MAC, sistema operativo, y ubicación) en dispositivos tanto **Windows** como **LliureX** (Linux), almacenando los resultados de forma estructurada para su posterior integración en hojas de cálculo oficiales proporcionadas por la administración.
 
 ---
 
