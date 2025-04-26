@@ -6,27 +6,6 @@ Como parte del proyecto de **actualización de los inventarios informáticos** d
 
 El objetivo principal es **agilizar y automatizar parcialmente** el proceso de recolección de información relevante (únicos del equipo como número de serie, dirección MAC, sistema operativo, y ubicación) en dispositivos tanto **Windows** como **LliureX** (Linux), almacenando los resultados de forma estructurada para su posterior integración en hojas de cálculo oficiales proporcionadas por la administración.
 
----
-
-## Estructura del USB
-
-```plaintext
-/USB/
-├── 1_Ejecutar_Inventario_LliureX.sh    # Script principal para LliureX
-├── 2_Ejecutar_Inventario_Windows.bat   # Lanzador fácil para Windows
-├── lliurex_inventario_rutas.sh         # Contiene ejemplos de rutas absolutas al script para su rápido copiado y pegado.
-├── winventario.ps1                     # Script auxiliar para Windows (no tocar)
-├── inventario_YYYYMMDD.txt             # Archivo de inventario generado automáticamente
-├── README.txt                          # Instrucciones y documentación
-```
-
-- **1\_Ejecutar\_Inventario\_LliureX.sh**: Script preparado para LliureX que automatiza la captura de datos, es necesario ejecutar con sudo.
-- **2\_Ejecutar\_Inventario\_Windows.bat**: Archivo de ejecución rápida para usuarios de Windows, simplemente haga doble clic en este archivo y el se encargará de llamar y ejecutar el script en un entorno powershell.
-- **winventario.ps1**: Scripts principal de Windows Powershell que contiene la lógica de captura, no es necesario tocarlo ni modificarlos salvo que quiera realizar cambios en la lógica. 
-- **inventario_YYYYMMDD.txto**: Archivo `.txt` nombrado automáticamente según la fecha de ejecución siguiendo el formáto inventario_dia(2 dígitos)mes(2 dígitos)año(2 dígitos), en la primera ejecución del día inependientemente de el SO se generará este archivo de forma automática si no existe.
-- **README.txt**: Archivo de ejecución rápida para usuarios de Windows, simplemente haga doble clic en este archi
----
-
 ## Tecnologías y herramientas utilizadas
 
 - **Bash** para la automatización en sistemas LliureX/Linux.
@@ -44,6 +23,30 @@ El objetivo principal es **agilizar y automatizar parcialmente** el proceso de r
 ## Instrucciones rápidas de uso
 
 Almacenar en una carpeta de nombre Inventario los archivos del proyecto, es posible modificar el nombre de esta carpeta pero se requiere hacer cambiso en las rutas de los atajos y posiblemente en los scripts. 
+---
+
+## Estructura que tendra la carpeta Inventario en el USB
+
+```plaintext
+/USB/
+├── 1_Ejecutar_Inventario_LliureX.sh    # Script principal para LliureX
+├── 2_Ejecutar_Inventario_Windows.bat   # Lanzador fácil para Windows
+├── lliurex_inventario_rutas.sh         # Contiene ejemplos de rutas absolutas al script para su rápido copiado y pegado.
+├── winventario.ps1                     # Script auxiliar para Windows (no tocar)
+├── inventario_YYYYMMDD.txt             # Archivo de inventario generado automáticamente
+├── README.txt                          # Instrucciones y documentación
+```
+
+### Descripción corta de ficheros
+
+- **1\_Ejecutar\_Inventario\_LliureX.sh**: Script preparado para LliureX que automatiza la captura de datos, es necesario ejecutar con sudo.
+- **2\_Ejecutar\_Inventario\_Windows.bat**: Archivo de ejecución rápida para usuarios de Windows, simplemente haga doble clic en este archivo y el se encargará de llamar y ejecutar el script en un entorno powershell.
+- **winventario.ps1**: Scripts principal de Windows Powershell que contiene la lógica de captura, no es necesario tocarlo ni modificarlos salvo que quiera realizar cambios en la lógica. 
+- **inventario_YYYYMMDD.txto**: Archivo `.txt` nombrado automáticamente según la fecha de ejecución siguiendo el formáto inventario_dia(2 dígitos)mes(2 dígitos)año(2 dígitos), en la primera ejecución del día inependientemente de el SO se generará este archivo de forma automática si no existe.
+- **README.txt**: Archivo de ejecución rápida para usuarios de Windows, simplemente haga doble clic en este archi
+---
+
+### Métodos de uso 
 
 ### En LliureX
 
