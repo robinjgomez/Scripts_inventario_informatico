@@ -30,7 +30,7 @@ Almacenar en una carpeta de nombre Inventario los archivos del proyecto, es posi
 /USB/
 ├── 1_Ejecutar_Inventario_LliureX.sh    # Script principal para LliureX
 ├── 2_Ejecutar_Inventario_Windows.bat   # Lanzador fácil para Windows
-├── lliurex_inventario_rutas.sh         # Contiene ejemplos de rutas absolutas al script para su rápido copiado y pegado.
+├── lliurex_inventario_rutas.txt        # Contiene ejemplos de rutas absolutas al script para su rápido copiado y pegado.
 ├── winventario.ps1                     # Script auxiliar para Windows (no tocar)
 ├── inventario_YYYYMMDD.txt             # Archivo de inventario generado automáticamente
 ├── README.txt                          # Instrucciones y documentación
