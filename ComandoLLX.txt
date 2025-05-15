@@ -1,0 +1,18 @@
+USER LLIUREX
+sudo /media/lliurex/ejecutables/INVENTARIOS/inventariollx.sh
+
+USER NETADMIN
+sudo /media/netadmin/ejecutables/INVENTARIOS/inventariollx.sh
+
+USER IDENTIDAD DIGITAL
+sudo /media/D73102106X/ejecutables/INVENTARIOS/inventariollx.sh
+
+USER ADMINGVA
+sudo /media/admingva/ejecutables/INVENTARIOS/inventariollx.sh
+Pass PRL 2/3/4
+obZIjVA4AlTtAStAp1oz
+
+OTROS
+sudo /media/aulatic/ejecutables/INVENTARIOS/inventariollx.sh
+
+sudo /media/admxixona/ejecutables/INVENTARIOS/inventariollx.sh
